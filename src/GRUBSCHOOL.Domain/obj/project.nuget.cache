@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YXOkbx9tET375AVoh7JtptHFs9d8XEsQ3GogteanFBQqZ9keENtTifkIq8/tbmxG7P9UQbSFuSK5jB343SpoBg==",
+  "success": true,
+  "projectFilePath": "C:\\#PEAL\\Dev\\PEAL\\GRUBSCHOOL\\src\\GRUBSCHOOL.Domain\\GRUBSCHOOL.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Edila\\.nuget\\packages\\flunt\\2.0.1\\flunt.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

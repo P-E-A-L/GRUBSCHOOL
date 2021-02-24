@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>GRUBSCHOOL.Apresentation.Desktop.NETCore</RootNamespace>
+    <AssemblyName>GRUBSCHOOL</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="PEALComponents.CaixaDeMensagem">
+      <HintPath>..\..\packages\PEALComponents\PEALComponents.CaixaDeMensagem.dll</HintPath>
+    </Reference>
+    <Reference Include="PEALComponents.Extensoes">
+      <HintPath>..\..\packages\PEALComponents\PEALComponents.Extensoes.dll</HintPath>
+    </Reference>
+    <Reference Include="PEALComponents.Ferramentas">
+      <HintPath>..\..\packages\PEALComponents\PEALComponents.Ferramentas.dll</HintPath>
+    </Reference>
+    <Reference Include="PEALComponents.Formularios">
+      <HintPath>..\..\packages\PEALComponents\PEALComponents.Formularios.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

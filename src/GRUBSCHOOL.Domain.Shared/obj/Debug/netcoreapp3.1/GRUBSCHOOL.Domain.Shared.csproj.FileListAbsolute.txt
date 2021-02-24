@@ -1,0 +1,9 @@
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain.Shared\bin\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Shared.deps.json
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain.Shared\bin\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Shared.dll
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain.Shared\bin\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Shared.pdb
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain.Shared\obj\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Shared.csprojAssemblyReference.cache
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain.Shared\obj\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Shared.AssemblyInfoInputs.cache
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain.Shared\obj\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Shared.AssemblyInfo.cs
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain.Shared\obj\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Shared.dll
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain.Shared\obj\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Shared.pdb
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain.Shared\obj\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Shared.csproj.CoreCompileInputs.cache

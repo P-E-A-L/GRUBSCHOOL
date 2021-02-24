@@ -1,0 +1,8 @@
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.CrossCutting\bin\Debug\netcoreapp3.1\GRUBSCHOOL.CrossCutting.deps.json
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.CrossCutting\bin\Debug\netcoreapp3.1\GRUBSCHOOL.CrossCutting.dll
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.CrossCutting\bin\Debug\netcoreapp3.1\GRUBSCHOOL.CrossCutting.pdb
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.CrossCutting\obj\Debug\netcoreapp3.1\GRUBSCHOOL.CrossCutting.AssemblyInfoInputs.cache
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.CrossCutting\obj\Debug\netcoreapp3.1\GRUBSCHOOL.CrossCutting.AssemblyInfo.cs
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.CrossCutting\obj\Debug\netcoreapp3.1\GRUBSCHOOL.CrossCutting.csproj.CoreCompileInputs.cache
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.CrossCutting\obj\Debug\netcoreapp3.1\GRUBSCHOOL.CrossCutting.dll
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.CrossCutting\obj\Debug\netcoreapp3.1\GRUBSCHOOL.CrossCutting.pdb

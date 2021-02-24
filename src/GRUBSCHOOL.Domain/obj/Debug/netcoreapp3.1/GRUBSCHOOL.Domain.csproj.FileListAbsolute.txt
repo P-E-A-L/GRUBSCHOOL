@@ -1,0 +1,12 @@
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain\bin\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.deps.json
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain\bin\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.dll
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain\bin\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.pdb
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain\bin\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Shared.dll
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain\bin\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Shared.pdb
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain\obj\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.csprojAssemblyReference.cache
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain\obj\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.AssemblyInfoInputs.cache
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain\obj\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.AssemblyInfo.cs
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain\obj\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.csproj.CopyComplete
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain\obj\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.dll
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain\obj\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.pdb
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Domain\obj\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.csproj.CoreCompileInputs.cache
