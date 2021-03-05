@@ -1,4 +1,5 @@
-﻿using GRUBSCHOOL.Infra.Data.Interfaces;
+﻿using Flunt.Notifications;
+using GRUBSCHOOL.Infra.Data.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
@@ -10,6 +11,8 @@ namespace GRUBSCHOOL.Infra.Data.Configuracoes
     {
         public static void AplicarConfiguracao(ModelBuilder modelBuilder)
         {
+            modelBuilder.Ignore<Notification>();
+
             //Pega todas as classes que estão implementando a interface IMapping
             var typesToMapping = (from x in Assembly.GetExecutingAssembly().GetTypes()
                                   where x.IsClass && typeof(IMapeamento).IsAssignableFrom(x)

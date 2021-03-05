@@ -1,5 +1,5 @@
-﻿using GRUBSCHOOL.Domain.Shared.Entidades;
-using System.Collections.Generic;
+﻿using Flunt.Validations;
+using GRUBSCHOOL.Domain.Shared.Entidades;
 
 namespace GRUBSCHOOL.Domain.Entidades
 {
@@ -18,11 +18,23 @@ namespace GRUBSCHOOL.Domain.Entidades
             Nome = nome;
             Sigla = sigla;
             CursoTipoId = cursoTipoId;
+            Validar();
         }
 
         public override void Validar()
         {
-            throw new System.NotImplementedException();
+            ValidarNome();
+            ValidarSigla();
+            ValidarCursoTipoId();
+        }
+
+        private void ValidarCursoTipoId()
+        {
+            AddNotifications(new Contract<Curso>()
+                            .Requires()
+                            .AreNotEquals(0, CursoTipoId, "Tem que selecionar o tipo de curso.")
+                            .AreNotEquals(0, CursoTipoId, "Tem que selecionar o tipo de curso.")
+                        );
         }
     }
 }

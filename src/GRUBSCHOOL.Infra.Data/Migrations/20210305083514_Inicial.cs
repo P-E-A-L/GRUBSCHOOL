@@ -109,10 +109,10 @@ namespace GRUBSCHOOL.Infra.Data.Migrations
                 columns: new[] { "Id", "Nome" },
                 values: new object[,]
                 {
-                    { new Guid("220a3457-b082-405e-baf0-62b378f956e5"), "Ensino Primário" },
-                    { new Guid("0a9685e7-2459-445e-a1f9-91627b732e75"), "Iº Ciclo" },
-                    { new Guid("c848b188-b963-4c12-9308-d07ff4efcceb"), "IIº Ciclo" },
-                    { new Guid("484295bb-9480-498f-acee-ca2bcd319f95"), "Ensino Médio" }
+                    { new Guid("6dfa78ec-ef81-4c3b-8b6b-69c5f1bc7d14"), "Ensino Primário" },
+                    { new Guid("649b2b0c-6aa9-430d-8545-e16d736fbca2"), "Iº Ciclo" },
+                    { new Guid("036a8b36-1150-433a-8ae7-8b4bbd444843"), "IIº Ciclo" },
+                    { new Guid("599a88b6-a353-47e6-86f0-24b8f374e104"), "Ensino Médio" }
                 });
 
             migrationBuilder.InsertData(
@@ -120,20 +120,20 @@ namespace GRUBSCHOOL.Infra.Data.Migrations
                 columns: new[] { "Id", "Nome" },
                 values: new object[,]
                 {
-                    { new Guid("3ec5d49b-9f56-4cde-b98c-17b60c71fcf4"), "13º Classe" },
-                    { new Guid("a3a16d03-9f5a-477a-b773-df44bcd9bbf7"), "12º Classe" },
-                    { new Guid("f347ae2f-9810-4213-9f24-7800c1d792df"), "11º Classe" },
-                    { new Guid("04509cc9-70b3-4922-8c1a-e68d90c53d50"), "10º Classe" },
-                    { new Guid("7277a27e-a7e6-4fa9-a865-1a7927951c76"), "9º Classe" },
-                    { new Guid("cff63503-6de0-4050-8c95-829a474a32ab"), "8º Classe" },
-                    { new Guid("1a56303d-2655-43f9-acc3-15d17df4db14"), "7º Classe" },
-                    { new Guid("4d2267ce-937b-4c88-99ed-c5cab1cc07f0"), "5º Classe" },
-                    { new Guid("190bd7ba-325f-43c3-83b9-4c8f3b8d7515"), "4º Classe" },
-                    { new Guid("1372a793-c9d4-4dd1-89e5-f83845a06518"), "3º Classe" },
-                    { new Guid("3a30b1cb-e0a8-436f-8bfc-b9582238bb31"), "2º Classe" },
-                    { new Guid("b6b4e576-7f28-4ee7-8dc2-89638b4cc9f1"), "1º Classe" },
-                    { new Guid("39f149f8-c7b1-4268-937c-2a69b359870f"), "Iniciação" },
-                    { new Guid("844b43a0-83bd-47db-bc06-e2fb72842a90"), "6º Classe" }
+                    { new Guid("c5e18929-6762-4b20-9443-6d431f5d4ae3"), "13ª Classe" },
+                    { new Guid("3d73b608-0928-4b04-bf2e-0922d655d977"), "12ª Classe" },
+                    { new Guid("f7671e78-b888-473e-a5e9-c2d3fa98a563"), "11ª Classe" },
+                    { new Guid("d071a106-a616-4375-bd78-c14df47c7b4b"), "10ª Classe" },
+                    { new Guid("346b2252-87a8-4571-83d6-8de2d80d1706"), "9ª Classe" },
+                    { new Guid("55776f57-95b4-44b5-a97a-e478df299235"), "8ª Classe" },
+                    { new Guid("704750a4-8bc3-42a7-bddc-b7691992849d"), "7ª Classe" },
+                    { new Guid("936f1f74-e5f8-4367-8217-fd978905dc36"), "5ª Classe" },
+                    { new Guid("533cb08c-96b0-4c64-a9ba-8706a8282f1f"), "4ª Classe" },
+                    { new Guid("22714065-4309-48a8-8534-27d1c5949262"), "3ª Classe" },
+                    { new Guid("03773ec8-3e5b-4191-95d2-6d0370bbe8ad"), "2ª Classe" },
+                    { new Guid("7493e591-9968-49fe-b752-2d952824ed53"), "1ª Classe" },
+                    { new Guid("9b2e4e03-f4cf-42cb-a259-bea2ebb7e21a"), "Iniciação" },
+                    { new Guid("5ae8e3b7-f9d4-40f8-8d82-a6814dffd1d2"), "6ª Classe" }
                 });
 
             migrationBuilder.InsertData(
@@ -141,8 +141,8 @@ namespace GRUBSCHOOL.Infra.Data.Migrations
                 columns: new[] { "Id", "Nome" },
                 values: new object[,]
                 {
-                    { new Guid("8896f89b-c49a-45b6-88f3-8442dada340e"), "Técnico" },
-                    { new Guid("98128ccf-cce6-4457-bd01-61873f6915af"), "PUNIV" }
+                    { new Guid("6d6e00b1-d2a8-4c3b-ad5f-faa884ceffe4"), "Técnico" },
+                    { new Guid("bae39dd7-49c5-496e-83ee-78610901fde1"), "PUNIV" }
                 });
 
             migrationBuilder.InsertData(
@@ -150,9 +150,9 @@ namespace GRUBSCHOOL.Infra.Data.Migrations
                 columns: new[] { "Id", "Nome" },
                 values: new object[,]
                 {
-                    { new Guid("b89c10fb-62b6-4425-ba4f-782762c9329e"), "Tarde" },
-                    { new Guid("ecb393cd-9a70-419d-9a81-a7dd19bbbc68"), "Manhã" },
-                    { new Guid("8921508f-3d15-4844-be0f-9325476131fa"), "Noite" }
+                    { new Guid("60b65226-37df-4c1a-80e9-60664bf37ef9"), "Tarde" },
+                    { new Guid("13f1c128-e208-47b0-ad87-0857baf4bccc"), "Manhã" },
+                    { new Guid("a3261bff-56e7-4444-a458-8986214e01da"), "Noite" }
                 });
 
             migrationBuilder.CreateIndex(
@@ -213,9 +213,6 @@ namespace GRUBSCHOOL.Infra.Data.Migrations
 
             migrationBuilder.DropTable(
                 name: "estudantes");
-
-            migrationBuilder.DropTable(
-                name: "Notification");
 
             migrationBuilder.DropTable(
                 name: "periodos");

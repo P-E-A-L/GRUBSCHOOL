@@ -11,6 +11,7 @@ namespace GRUBSCHOOL.Infra.Data.Seeds
             var cursoTipos = new List<CursoTipo>
             {
                 new CursoTipo("Técnico"),
+                new CursoTipo("Saúde"),
                 new CursoTipo("PUNIV")
             };
 

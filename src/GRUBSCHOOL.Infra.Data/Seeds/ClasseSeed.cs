@@ -12,19 +12,19 @@ namespace GRUBSCHOOL.Infra.Data.Seeds
             var classes = new List<Classe>
             {
                 new Classe("Iniciação"),
-                new Classe("1º Classe"),
-                new Classe("2º Classe"),
-                new Classe("3º Classe"),
-                new Classe("4º Classe"),
-                new Classe("5º Classe"),
-                new Classe("6º Classe"),
-                new Classe("7º Classe"),
-                new Classe("8º Classe"),
-                new Classe("9º Classe"),
-                new Classe("10º Classe"),
-                new Classe("11º Classe"),
-                new Classe("12º Classe"),
-                new Classe("13º Classe")
+                new Classe("1ª Classe"),
+                new Classe("2ª Classe"),
+                new Classe("3ª Classe"),
+                new Classe("4ª Classe"),
+                new Classe("5ª Classe"),
+                new Classe("6ª Classe"),
+                new Classe("7ª Classe"),
+                new Classe("8ª Classe"),
+                new Classe("9ª Classe"),
+                new Classe("10ª Classe"),
+                new Classe("11ª Classe"),
+                new Classe("12ª Classe"),
+                new Classe("13ª Classe")
             };
 
             modelBuilder.Entity<Classe>().HasData(classes);

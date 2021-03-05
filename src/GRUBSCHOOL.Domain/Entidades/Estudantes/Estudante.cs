@@ -6,5 +6,9 @@ namespace GRUBSCHOOL.Domain.Entidades
     {
         public string Matricula { get; set; }
 
+        public override void Validar()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
