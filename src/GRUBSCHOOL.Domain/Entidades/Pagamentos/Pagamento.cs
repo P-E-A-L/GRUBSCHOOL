@@ -4,7 +4,7 @@ using System;
 
 namespace GRUBSCHOOL.Domain.Entidades
 {
-    public class Pagamento : EntidadeBase
+    public class Pagamento : Entidade
     {
         public EstadoPagamento Estado { get; private set; }
         public DateTime Data { get; private set; }

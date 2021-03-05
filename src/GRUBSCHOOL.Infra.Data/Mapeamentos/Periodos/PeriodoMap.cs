@@ -9,7 +9,7 @@ namespace GRUBSCHOOL.Infra.Data.Mapeamentos
     {
         public void Configure(EntityTypeBuilder<Periodo> builder)
         {
-            builder.ToTable("tbl_periodo")
+            builder.ToTable("periodos")
                     .HasKey(c => c.Id);
 
             builder.HasIndex(m => m.Nome)

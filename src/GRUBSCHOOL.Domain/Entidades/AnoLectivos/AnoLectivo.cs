@@ -4,7 +4,7 @@ using System;
 
 namespace GRUBSCHOOL.Domain.Entidades
 {
-    public class AnoLectivo : EntidadeBase
+    public class AnoLectivo : Entidade
     {
         public int Ano { get; set; }
         public DateTime DataInicio { get; set; }

@@ -79,7 +79,7 @@ namespace GRUBSCHOOL.Domain.Servicos
             return await _anoLectivoRepositorio.BuscarPorAno(ano);
         }
 
-        public async Task<AnoLectivo> BuscarPorId(int id)
+        public async Task<AnoLectivo> BuscarPorId(Guid id)
         {
             return await _anoLectivoRepositorio.BuscarPorId(id);
         }

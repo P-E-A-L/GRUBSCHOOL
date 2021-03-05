@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GRUBSCHOOL.Infra.Data.Repositorios
 {
-    public class GenericoRepositorio<T> : IGenericoRepositorio<T> where T : EntidadeBase
+    public class GenericoRepositorio<T> : IGenericoRepositorio<T> where T : Entidade
     {
         private readonly ContextoDatabase _db;
         protected readonly DbSet<T> DbSet;
@@ -60,7 +60,7 @@ namespace GRUBSCHOOL.Infra.Data.Repositorios
         public virtual async Task<ICollection<T>> ListarTodos() =>
             await DbSet.AsNoTracking().ToListAsync();
 
-        public virtual async Task<T> BuscarPorId(int id)
+        public virtual async Task<T> BuscarPorId(Guid id)
         {
             return await DbSet.AsNoTracking().FirstOrDefaultAsync(i => i.Id == id);
         }

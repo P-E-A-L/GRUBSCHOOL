@@ -9,11 +9,11 @@ namespace GRUBSCHOOL.Infra.Data.Mapeamentos
     {
         public void Configure(EntityTypeBuilder<Ciclo> builder)
         {
-            builder.ToTable("tbl_ciclo")
+            builder.ToTable("ciclos")
                     .HasKey(c => c.Id);
 
             builder.HasIndex(m => m.Nome)
-                .IsUnique();
+                    .IsUnique();
 
             builder.Property(m => m.Nome)
                     .HasColumnName("Nome")

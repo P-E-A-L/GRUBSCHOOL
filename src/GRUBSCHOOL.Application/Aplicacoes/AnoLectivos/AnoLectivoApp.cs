@@ -122,7 +122,7 @@ namespace GRUBSCHOOL.Application.Aplicacoes
            return _mapper.Map<ICollection<AnoLectivoViewModel>>(await _anoLectivoServico.ListarTodos());
         }
 
-        public async Task<AnoLectivoViewModel> BuscarPorId(int id)
+        public async Task<AnoLectivoViewModel> BuscarPorId(Guid id)
         {
             return _mapper.Map<AnoLectivoViewModel>(await _anoLectivoServico.BuscarPorId(id));
         }

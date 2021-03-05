@@ -6,6 +6,7 @@ namespace GRUBSCHOOL.Infra.Data.Seeds
 {
     public static class ClasseSeed
     {
+       
         public static void Seed(ModelBuilder modelBuilder)
         {
             var classes = new List<Classe>

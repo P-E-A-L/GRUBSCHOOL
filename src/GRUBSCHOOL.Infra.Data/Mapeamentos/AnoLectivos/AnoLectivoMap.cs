@@ -9,16 +9,13 @@ namespace GRUBSCHOOL.Infra.Data.Mapeamentos
     {
         public void Configure(EntityTypeBuilder<AnoLectivo> builder)
         {
-            builder.ToTable("tbl_ano_lectivo")
-                    .Ignore(c=>c.Id)
-                    .HasNoKey()
-                    .HasAlternateKey(c=>c.Ano);
+            builder.ToTable("ano_lectivos")
+                    .Ignore(c => c.Id)
+                    .HasNoKey();
 
             builder.HasIndex(m => m.Ano)
                  .IsUnique()
                  .IsUnique();
-
-
 
         }
     }

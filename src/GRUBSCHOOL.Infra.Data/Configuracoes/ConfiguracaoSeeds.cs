@@ -7,7 +7,7 @@ namespace GRUBSCHOOL.Infra.Data.Configuracoes
     {
         public static void AplicarConfiguracao(ModelBuilder modelBuilder)
         {
-            RegiaoSeed.Seed(modelBuilder);
+            //RegiaoSeed.Seed(modelBuilder);
             CicloSeed.Seed(modelBuilder);
             ClasseSeed.Seed(modelBuilder);
             CursoTipoSeed.Seed(modelBuilder);

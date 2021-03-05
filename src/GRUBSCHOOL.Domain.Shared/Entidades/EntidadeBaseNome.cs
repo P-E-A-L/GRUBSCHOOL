@@ -3,7 +3,7 @@ using Flunt.Validations;
 
 namespace GRUBSCHOOL.Domain.Shared.Entidades
 {
-    public abstract class EntidadeBaseNome : EntidadeBase
+    public abstract class EntidadeBaseNome : Entidade
     {
         public string Nome { get; protected set; }
         public const int NomeTamanhoMaximo = 50;
