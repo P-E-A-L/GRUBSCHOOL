@@ -15,6 +15,6 @@ namespace GRUBSCHOOL.Domain.Interfaces
         Task Guardar(T obj);
         Task Guardar(ICollection<T> obj);
         Task<ICollection<T>> ListarTodos();
-        Task<T> BuscarPorId(Guid id);
+        Task<T> BuscarPorId(int id);
     }
 }

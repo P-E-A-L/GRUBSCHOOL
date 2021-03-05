@@ -36,9 +36,9 @@ namespace GRUBSCHOOL.Infra.Data.Migrations
 
             modelBuilder.Entity("GRUBSCHOOL.Domain.Entidades.Ciclo", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("char(36)");
+                        .HasColumnType("int");
 
                     b.Property<string>("Nome")
                         .IsRequired()
@@ -55,31 +55,31 @@ namespace GRUBSCHOOL.Infra.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("6dfa78ec-ef81-4c3b-8b6b-69c5f1bc7d14"),
+                            Id = 1,
                             Nome = "Ensino Primário"
                         },
                         new
                         {
-                            Id = new Guid("649b2b0c-6aa9-430d-8545-e16d736fbca2"),
+                            Id = 2,
                             Nome = "Iº Ciclo"
                         },
                         new
                         {
-                            Id = new Guid("036a8b36-1150-433a-8ae7-8b4bbd444843"),
+                            Id = 3,
                             Nome = "IIº Ciclo"
                         },
                         new
                         {
-                            Id = new Guid("599a88b6-a353-47e6-86f0-24b8f374e104"),
+                            Id = 4,
                             Nome = "Ensino Médio"
                         });
                 });
 
             modelBuilder.Entity("GRUBSCHOOL.Domain.Entidades.Classe", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("char(36)");
+                        .HasColumnType("int");
 
                     b.Property<string>("Nome")
                         .IsRequired()
@@ -96,87 +96,84 @@ namespace GRUBSCHOOL.Infra.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("9b2e4e03-f4cf-42cb-a259-bea2ebb7e21a"),
+                            Id = 1,
                             Nome = "Iniciação"
                         },
                         new
                         {
-                            Id = new Guid("7493e591-9968-49fe-b752-2d952824ed53"),
+                            Id = 2,
                             Nome = "1ª Classe"
                         },
                         new
                         {
-                            Id = new Guid("03773ec8-3e5b-4191-95d2-6d0370bbe8ad"),
+                            Id = 3,
                             Nome = "2ª Classe"
                         },
                         new
                         {
-                            Id = new Guid("22714065-4309-48a8-8534-27d1c5949262"),
+                            Id = 4,
                             Nome = "3ª Classe"
                         },
                         new
                         {
-                            Id = new Guid("533cb08c-96b0-4c64-a9ba-8706a8282f1f"),
+                            Id = 5,
                             Nome = "4ª Classe"
                         },
                         new
                         {
-                            Id = new Guid("936f1f74-e5f8-4367-8217-fd978905dc36"),
+                            Id = 6,
                             Nome = "5ª Classe"
                         },
                         new
                         {
-                            Id = new Guid("5ae8e3b7-f9d4-40f8-8d82-a6814dffd1d2"),
+                            Id = 7,
                             Nome = "6ª Classe"
                         },
                         new
                         {
-                            Id = new Guid("704750a4-8bc3-42a7-bddc-b7691992849d"),
+                            Id = 8,
                             Nome = "7ª Classe"
                         },
                         new
                         {
-                            Id = new Guid("55776f57-95b4-44b5-a97a-e478df299235"),
+                            Id = 9,
                             Nome = "8ª Classe"
                         },
                         new
                         {
-                            Id = new Guid("346b2252-87a8-4571-83d6-8de2d80d1706"),
+                            Id = 10,
                             Nome = "9ª Classe"
                         },
                         new
                         {
-                            Id = new Guid("d071a106-a616-4375-bd78-c14df47c7b4b"),
+                            Id = 11,
                             Nome = "10ª Classe"
                         },
                         new
                         {
-                            Id = new Guid("f7671e78-b888-473e-a5e9-c2d3fa98a563"),
+                            Id = 12,
                             Nome = "11ª Classe"
                         },
                         new
                         {
-                            Id = new Guid("3d73b608-0928-4b04-bf2e-0922d655d977"),
+                            Id = 13,
                             Nome = "12ª Classe"
                         },
                         new
                         {
-                            Id = new Guid("c5e18929-6762-4b20-9443-6d431f5d4ae3"),
+                            Id = 14,
                             Nome = "13ª Classe"
                         });
                 });
 
             modelBuilder.Entity("GRUBSCHOOL.Domain.Entidades.Curso", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("char(36)");
+                        .HasColumnType("int");
 
                     b.Property<int>("CursoTipoId")
                         .HasColumnType("int");
-
-                    b.Property<Guid?>("CursoTipoId1")
-                        .HasColumnType("char(36)");
 
                     b.Property<string>("Nome")
                         .IsRequired()
@@ -190,7 +187,7 @@ namespace GRUBSCHOOL.Infra.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CursoTipoId1");
+                    b.HasIndex("CursoTipoId");
 
                     b.HasIndex("Nome")
                         .IsUnique();
@@ -200,14 +197,14 @@ namespace GRUBSCHOOL.Infra.Data.Migrations
 
             modelBuilder.Entity("GRUBSCHOOL.Domain.Entidades.CursoTipo", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("char(36)");
+                        .HasColumnType("int");
 
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnName("Nome")
-                        .HasColumnType("varchar(50)");
+                        .HasColumnType("varchar(7)");
 
                     b.HasKey("Id");
 
@@ -219,21 +216,26 @@ namespace GRUBSCHOOL.Infra.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("6d6e00b1-d2a8-4c3b-ad5f-faa884ceffe4"),
+                            Id = 1,
                             Nome = "Técnico"
                         },
                         new
                         {
-                            Id = new Guid("bae39dd7-49c5-496e-83ee-78610901fde1"),
+                            Id = 2,
+                            Nome = "Saúde"
+                        },
+                        new
+                        {
+                            Id = 3,
                             Nome = "PUNIV"
                         });
                 });
 
             modelBuilder.Entity("GRUBSCHOOL.Domain.Entidades.Estudante", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("char(36)");
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("DataAlteracao")
                         .HasColumnType("datetime(6)");
@@ -257,9 +259,9 @@ namespace GRUBSCHOOL.Infra.Data.Migrations
 
             modelBuilder.Entity("GRUBSCHOOL.Domain.Entidades.Periodo", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("char(36)");
+                        .HasColumnType("int");
 
                     b.Property<string>("Nome")
                         .IsRequired()
@@ -276,17 +278,17 @@ namespace GRUBSCHOOL.Infra.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("13f1c128-e208-47b0-ad87-0857baf4bccc"),
+                            Id = 1,
                             Nome = "Manhã"
                         },
                         new
                         {
-                            Id = new Guid("60b65226-37df-4c1a-80e9-60664bf37ef9"),
+                            Id = 2,
                             Nome = "Tarde"
                         },
                         new
                         {
-                            Id = new Guid("a3261bff-56e7-4444-a458-8986214e01da"),
+                            Id = 3,
                             Nome = "Noite"
                         });
                 });
@@ -295,7 +297,9 @@ namespace GRUBSCHOOL.Infra.Data.Migrations
                 {
                     b.HasOne("GRUBSCHOOL.Domain.Entidades.CursoTipo", "CursoTipo")
                         .WithMany()
-                        .HasForeignKey("CursoTipoId1");
+                        .HasForeignKey("CursoTipoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

@@ -60,7 +60,7 @@ namespace GRUBSCHOOL.Infra.Data.Repositorios
         public virtual async Task<ICollection<T>> ListarTodos() =>
             await DbSet.AsNoTracking().ToListAsync();
 
-        public virtual async Task<T> BuscarPorId(Guid id)
+        public virtual async Task<T> BuscarPorId(int id)
         {
             return await DbSet.AsNoTracking().FirstOrDefaultAsync(i => i.Id == id);
         }

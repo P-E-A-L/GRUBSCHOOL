@@ -5,16 +5,22 @@ namespace GRUBSCHOOL.Domain.Entidades
     public class Classe : EntidadeBaseNome
     {
 
-        public new const int NomeTamanhoMaximo = 50;
+        public new const int NomeTamanhoMaximo = 10;
         private Classe()
         {
 
         }
-        public Classe(string nome)
+
+        public Classe(string nome): base(nome)
+        {
+        }
+
+        public Classe(int id, string nome): base(id)
         {
             Nome = nome;
             Validar();
         }
+
 
         public override void Validar()
         {

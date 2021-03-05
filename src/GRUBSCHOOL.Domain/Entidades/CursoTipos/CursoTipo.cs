@@ -5,12 +5,12 @@ namespace GRUBSCHOOL.Domain.Entidades
     public class CursoTipo : EntidadeBaseNome
     {
         public new const int NomeTamanhoMaximo = 7;
-        private CursoTipo()
+       
+        public CursoTipo(string nome) : base(nome)
         {
-
         }
-
-        public CursoTipo(string nome) : this()
+        
+        public CursoTipo(int id, string nome) : base(id)
         {
             Nome = nome;
             Validar();

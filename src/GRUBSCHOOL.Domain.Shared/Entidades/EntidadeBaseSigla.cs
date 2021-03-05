@@ -4,6 +4,17 @@ namespace GRUBSCHOOL.Domain.Shared.Entidades
 {
     public abstract class EntidadeBaseSigla : EntidadeBaseNome
     {
+
+        protected EntidadeBaseSigla() { }
+
+        protected EntidadeBaseSigla(int id) : base(id) { }
+
+        protected EntidadeBaseSigla(string sigla)
+        {
+            Sigla = sigla;
+            ValidarSigla();
+        }
+
         public string Sigla { get; protected set; }
         public const int SiglaTamanhoMaximo = 10;
 

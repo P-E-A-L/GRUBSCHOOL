@@ -7,9 +7,12 @@ namespace GRUBSCHOOL.Domain.Entidades
     {
 
         public new const int NomeTamanhoMaximo = 6;
-        private Periodo() { }
+   
+        public Periodo(string nome) : base(nome)
+        {
+        }
 
-        public Periodo(string nome)
+        public Periodo(int id, string nome): base(id)
         {
             Nome = nome;
             Validar();

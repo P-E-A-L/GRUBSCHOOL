@@ -6,12 +6,13 @@ namespace GRUBSCHOOL.Domain.Entidades
     {
         public new  const int NomeTamanhoMaximo = 15;
 
-        private Ciclo()
-        {
+        private Ciclo() { }
 
+        public Ciclo(string nome) : base (nome)
+        {
         }
 
-        public Ciclo(string nome)
+        public Ciclo(int id, string nome) : base(id)
         {
             Nome = nome;
 

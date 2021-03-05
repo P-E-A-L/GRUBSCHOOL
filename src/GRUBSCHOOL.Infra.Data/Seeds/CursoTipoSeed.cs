@@ -10,9 +10,9 @@ namespace GRUBSCHOOL.Infra.Data.Seeds
         {
             var cursoTipos = new List<CursoTipo>
             {
-                new CursoTipo("Técnico"),
-                new CursoTipo("Saúde"),
-                new CursoTipo("PUNIV")
+                new CursoTipo(1,"Técnico"),
+                new CursoTipo(2,"Saúde"),
+                new CursoTipo(3,"PUNIV")
             };
 
             modelBuilder.Entity<CursoTipo>().HasData(cursoTipos);

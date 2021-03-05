@@ -11,9 +11,9 @@ namespace GRUBSCHOOL.Infra.Data.Seeds
         {
             var periodos = new List<Periodo>
             {
-                new Periodo( "Manhã"),
-                new Periodo("Tarde"),
-                new Periodo("Noite")
+                new Periodo(1,"Manhã"),
+                new Periodo(2, "Tarde"),
+                new Periodo(3, "Noite")
             };
 
             modelBuilder.Entity<Periodo>().HasData(periodos);
