@@ -1,0 +1,12 @@
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\GRUBSCHOOL.Infra.Data\Debug\netcoreapp3.1\appsettings.Development.json
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\GRUBSCHOOL.Infra.Data\Debug\netcoreapp3.1\appsettings.json
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\GRUBSCHOOL.Infra.Data\Debug\netcoreapp3.1\GRUBSCHOOL.Infra.Data.deps.json
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\GRUBSCHOOL.Infra.Data\Debug\netcoreapp3.1\GRUBSCHOOL.Infra.Data.runtimeconfig.json
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\GRUBSCHOOL.Infra.Data\Debug\netcoreapp3.1\GRUBSCHOOL.Infra.Data.runtimeconfig.dev.json
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\GRUBSCHOOL.Infra.Data\Debug\netcoreapp3.1\GRUBSCHOOL.Infra.Data.dll
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Infra.Data\Debug\netcoreapp3.1\GRUBSCHOOL.Infra.Data.csprojAssemblyReference.cache
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Infra.Data\Debug\netcoreapp3.1\GRUBSCHOOL.Infra.Data.AssemblyInfoInputs.cache
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Infra.Data\Debug\netcoreapp3.1\GRUBSCHOOL.Infra.Data.AssemblyInfo.cs
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Infra.Data\Debug\netcoreapp3.1\GRUBSCHOOL.Infra.Data.csproj.CopyComplete
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Infra.Data\Debug\netcoreapp3.1\GRUBSCHOOL.Infra.Data.dll
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Infra.Data\Debug\netcoreapp3.1\GRUBSCHOOL.Infra.Data.genruntimeconfig.cache

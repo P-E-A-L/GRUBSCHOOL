@@ -99,3 +99,13 @@ C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Apresentation.ASPNetCore\bin\Debug\n
 C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Apresentation.ASPNetCore\bin\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.pdb
 C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Apresentation.ASPNetCore\bin\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Shared.pdb
 C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Apresentation.ASPNetCore\bin\Debug\netcoreapp3.1\GRUBSCHOOL.Infra.Data.pdb
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Apresentation.ASPNetCore\obj\Debug\netcoreapp3.1\Razor\Views\AnoLectivos\Create.cshtml.g.cs
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Apresentation.ASPNetCore\obj\Debug\netcoreapp3.1\Razor\Views\AnoLectivos\Delete.cshtml.g.cs
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Apresentation.ASPNetCore\obj\Debug\netcoreapp3.1\Razor\Views\AnoLectivos\Detail.cshtml.g.cs
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Apresentation.ASPNetCore\obj\Debug\netcoreapp3.1\Razor\Views\AnoLectivos\Edit.cshtml.g.cs
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Apresentation.ASPNetCore\obj\Debug\netcoreapp3.1\Razor\Views\AnoLectivos\Index.cshtml.g.cs
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Apresentation.ASPNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Classes\Create.cshtml.g.cs
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Apresentation.ASPNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Classes\Delete.cshtml.g.cs
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Apresentation.ASPNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Classes\Detail.cshtml.g.cs
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Apresentation.ASPNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Classes\Edit.cshtml.g.cs
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\src\GRUBSCHOOL.Apresentation.ASPNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Classes\Index.cshtml.g.cs

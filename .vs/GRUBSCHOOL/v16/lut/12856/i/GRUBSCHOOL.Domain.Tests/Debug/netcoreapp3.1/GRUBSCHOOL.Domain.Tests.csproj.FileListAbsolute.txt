@@ -1,0 +1,14 @@
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\GRUBSCHOOL.Domain.Tests\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\GRUBSCHOOL.Domain.Tests\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\GRUBSCHOOL.Domain.Tests\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\GRUBSCHOOL.Domain.Tests\Debug\netcoreapp3.1\testhost.exe
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\GRUBSCHOOL.Domain.Tests\Debug\netcoreapp3.1\testhost.dll
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\GRUBSCHOOL.Domain.Tests\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Tests.deps.json
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\GRUBSCHOOL.Domain.Tests\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Tests.runtimeconfig.json
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\GRUBSCHOOL.Domain.Tests\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Tests.runtimeconfig.dev.json
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\GRUBSCHOOL.Domain.Tests\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Tests.dll
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Domain.Tests\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Tests.AssemblyInfoInputs.cache
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Domain.Tests\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Tests.AssemblyInfo.cs
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Domain.Tests\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Tests.csproj.CopyComplete
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Domain.Tests\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Tests.dll
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Domain.Tests\Debug\netcoreapp3.1\GRUBSCHOOL.Domain.Tests.genruntimeconfig.cache

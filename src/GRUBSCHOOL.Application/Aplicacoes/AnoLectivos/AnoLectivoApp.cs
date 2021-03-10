@@ -4,7 +4,6 @@ using GRUBSCHOOL.Application.ViewModels;
 using GRUBSCHOOL.Domain.Entidades;
 using GRUBSCHOOL.Domain.Interfaces.Servicos;
 using GRUBSCHOOL.Infra.Data.Interfaces;
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

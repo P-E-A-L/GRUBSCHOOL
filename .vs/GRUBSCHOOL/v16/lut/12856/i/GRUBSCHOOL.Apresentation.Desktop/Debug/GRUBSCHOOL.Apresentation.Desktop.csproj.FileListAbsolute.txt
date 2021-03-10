@@ -1,0 +1,9 @@
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\src\GRUBSCHOOL.Apresentation.Desktop\bin\Debug\GRUBSCHOOL.Apresentation.Desktop.exe.config
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\src\GRUBSCHOOL.Apresentation.Desktop\bin\Debug\GRUBSCHOOL.Apresentation.Desktop.exe
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Apresentation.Desktop\Debug\GRUBSCHOOL.Apresentation.Desktop.csprojAssemblyReference.cache
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Apresentation.Desktop\Debug\GRUBSCHOOL.Apresentation.Desktop.Form1.resources
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Apresentation.Desktop\Debug\GRUBSCHOOL.Apresentation.Desktop.Properties.Resources.resources
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Apresentation.Desktop\Debug\GRUBSCHOOL.Apresentation.Desktop.csproj.GenerateResource.cache
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Apresentation.Desktop\Debug\GRUBSCHOOL.Apresentation.Desktop.csproj.CoreCompileInputs.cache
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Apresentation.Desktop\Debug\GRUBSCHOOL.Apresentation.Desktop.csproj.CopyComplete
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Apresentation.Desktop\Debug\GRUBSCHOOL.Apresentation.Desktop.exe

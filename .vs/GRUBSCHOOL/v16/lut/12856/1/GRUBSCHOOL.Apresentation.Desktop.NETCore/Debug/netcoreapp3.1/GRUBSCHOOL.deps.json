@@ -1,0 +1,95 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GRUBSCHOOL/1.0.0": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.LiveUnitTesting.Runtime": "2.4.0.0",
+          "PEALComponents.CaixaDeMensagem": "1.0.0.0",
+          "PEALComponents.Extensoes": "1.0.0.0",
+          "PEALComponents.Ferramentas": "1.0.0.0",
+          "PEALComponents.Formularios": "1.0.0.0"
+        },
+        "runtime": {
+          "GRUBSCHOOL.dll": {}
+        }
+      },
+      "Microsoft.CodeAnalysis.LiveUnitTesting.Runtime/2.4.0.0": {
+        "runtime": {
+          "Microsoft.CodeAnalysis.LiveUnitTesting.Runtime.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.0.65516"
+          }
+        }
+      },
+      "PEALComponents.CaixaDeMensagem/1.0.0.0": {
+        "runtime": {
+          "PEALComponents.CaixaDeMensagem.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PEALComponents.Extensoes/1.0.0.0": {
+        "runtime": {
+          "PEALComponents.Extensoes.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PEALComponents.Ferramentas/1.0.0.0": {
+        "runtime": {
+          "PEALComponents.Ferramentas.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PEALComponents.Formularios/1.0.0.0": {
+        "runtime": {
+          "PEALComponents.Formularios.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GRUBSCHOOL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CodeAnalysis.LiveUnitTesting.Runtime/2.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PEALComponents.CaixaDeMensagem/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PEALComponents.Extensoes/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PEALComponents.Ferramentas/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PEALComponents.Formularios/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

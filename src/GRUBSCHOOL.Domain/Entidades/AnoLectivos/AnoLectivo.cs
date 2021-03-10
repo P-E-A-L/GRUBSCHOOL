@@ -6,9 +6,9 @@ namespace GRUBSCHOOL.Domain.Entidades
 {
     public class AnoLectivo : Entidade
     {
-        public int Ano { get; set; }
-        public DateTime DataInicio { get; set; }
-        public DateTime DataTermino { get; set; }
+        public int Ano { get; private set; }
+        public DateTime DataInicio { get; private set; }
+        public DateTime DataTermino { get; private set; }
 
         public AnoLectivo(int ano, DateTime dataInicio, DateTime dataTermino)
         {
@@ -18,6 +18,7 @@ namespace GRUBSCHOOL.Domain.Entidades
 
             Validar();
         }
+
 
         public override void Validar()
         {
@@ -38,7 +39,7 @@ namespace GRUBSCHOOL.Domain.Entidades
         {
             AddNotifications(new Contract<AnoLectivo>()
                 .Requires()
-
+                .IsGreaterOrEqualsThan(DataInicio, DataTermino, nameof(DataInicio), $"'A data de início não pode ser superior ou igual a data de término.")
                 );
         }
 
@@ -46,7 +47,6 @@ namespace GRUBSCHOOL.Domain.Entidades
         {
             AddNotifications(new Contract<AnoLectivo>()
                 .Requires()
-
                 );
         }
 

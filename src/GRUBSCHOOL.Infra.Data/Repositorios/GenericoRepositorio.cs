@@ -40,9 +40,9 @@ namespace GRUBSCHOOL.Infra.Data.Repositorios
         public virtual async Task Guardar(T obj)
         {
             //if (obj.Id == 0)
-                await Inserir(obj);
+            await Inserir(obj);
             //else
-                //Alterar(obj);
+            //Alterar(obj);
         }
 
         public virtual async Task Guardar(ICollection<T> obj)
@@ -50,7 +50,7 @@ namespace GRUBSCHOOL.Infra.Data.Repositorios
             //foreach (var item in obj)
             //{
             //    if (item.Id == 0)
-                    await Inserir(obj);
+            await Inserir(obj);
             //    else
             //        Alterar(obj);
             //}
@@ -60,10 +60,9 @@ namespace GRUBSCHOOL.Infra.Data.Repositorios
         public virtual async Task<ICollection<T>> ListarTodos() =>
             await DbSet.AsNoTracking().ToListAsync();
 
-        public virtual async Task<T> BuscarPorId(int id)
-        {
-            return await DbSet.AsNoTracking().FirstOrDefaultAsync(i => i.Id == id);
-        }
+        public virtual async Task<T> BuscarPorId(int id) =>
+             await DbSet.AsNoTracking().FirstOrDefaultAsync(i => i.Id == id);
+
 
         private readonly bool _disposed = false;
 

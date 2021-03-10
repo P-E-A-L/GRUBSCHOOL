@@ -1,0 +1,9 @@
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\GRUBSCHOOL.Application\Debug\netcoreapp3.1\appsettings.Development.json
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\GRUBSCHOOL.Application\Debug\netcoreapp3.1\appsettings.json
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\GRUBSCHOOL.Application\Debug\netcoreapp3.1\GRUBSCHOOL.Application.deps.json
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\b\GRUBSCHOOL.Application\Debug\netcoreapp3.1\GRUBSCHOOL.Application.dll
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Application\Debug\netcoreapp3.1\GRUBSCHOOL.Application.csprojAssemblyReference.cache
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Application\Debug\netcoreapp3.1\GRUBSCHOOL.Application.AssemblyInfoInputs.cache
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Application\Debug\netcoreapp3.1\GRUBSCHOOL.Application.AssemblyInfo.cs
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Application\Debug\netcoreapp3.1\GRUBSCHOOL.Application.csproj.CopyComplete
+C:\#PEAL\Dev\PEAL\GRUBSCHOOL\.vs\GRUBSCHOOL\v16\lut\0\i\GRUBSCHOOL.Application\Debug\netcoreapp3.1\GRUBSCHOOL.Application.dll
