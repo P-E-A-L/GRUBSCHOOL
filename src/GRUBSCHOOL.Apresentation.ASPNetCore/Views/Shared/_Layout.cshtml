@@ -30,7 +30,9 @@
       <div class="col-md-3 left_col menu_fixed">
         <div class="left_col scroll-view">
           <div class="navbar nav_title" style="border: 0;">
-            <a asp-area="" asp-controller="Home" asp-action="Index" class="site_title"><i><img src="~/images/GRUBSCHOOL_ICO.png"  alt="Grubschool logo" width="20" height="20"></i> <span>GRUBSCHOOL</span></a>
+            <a asp-area="" asp-controller="Home" asp-action="Index" class="site_title"><i><img
+                  src="~/images/GRUBSCHOOL_ICO.png" alt="Grubschool logo" width="20" height="20"></i>
+              <span>GRUBSCHOOL</span></a>
           </div>
 
           <div class="clearfix"></div>
@@ -39,38 +41,37 @@
           <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
             <div class="menu_section">
               <ul class="nav side-menu">
-                <li><a asp-area="" asp-controller="Home" asp-action="Index"><i class="fa fa-dashboard"></i> Dashboard </a></li>
+                <li><a asp-area="" asp-controller="Home" asp-action="Index"><i class="fa fa-dashboard"></i> Dashboard
+                  </a></li>
 
                 <li><a><i class="fa fa-graduation-cap"></i> Estudantes <span class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Registros</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Advanced Components</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Validation</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Wizard</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Upload</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Buttons</a></li>
+                    <li><a asp-area="" asp-controller="Estudantes" asp-action="Index">Novo Estudante</a></li>
+                    <li><a asp-area="" asp-controller="Estudantes" asp-action="Index">Todos Estudantes</a></li>
+                    <li><a asp-area="" asp-controller="Estudantes" asp-action="Index">Ensino Primário</a></li>
+                    <li><a asp-area="" asp-controller="Estudantes" asp-action="Index">Iº Ciclo</a></li>
+                    <li><a asp-area="" asp-controller="Estudantes" asp-action="Index">IIº Ciclo - Técnico</a></li>
+                    <li><a asp-area="" asp-controller="Estudantes" asp-action="Index">IIº Ciclo - PUNIV</a></li>
+                    <li><a asp-area="" asp-controller="Estudantes" asp-action="Index">IIº Ciclo - Saúde</a></li>
                   </ul>
                 </li>
 
                 <li><a><i class="fa fa-dollar"></i> Pagamentos <span class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Registros</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Advanced Components</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Validation</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Wizard</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Upload</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Buttons</a></li>
+                    <li><a asp-area="" asp-controller="Pagamentos" asp-action="Create">Novo Pagamento</a></li>
+                    <li><a asp-area="" asp-controller="Pagamentos" asp-action="Matriculas">Matrículas</a></li>
+                    <li><a asp-area="" asp-controller="Pagamentos" asp-action="Confirmacoes">Confirmações</a></li>
+                    <li><a asp-area="" asp-controller="Pagamentos" asp-action="Propinas">Propinas</a></li>
+                    <li><a asp-area="" asp-controller="Pagamentos" asp-action="Emolumentos">Emolumentos</a></li>
                   </ul>
                 </li>
 
                 <li><a><i class="fa fa-file-text-o"></i> Emolumentos <span class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Registros</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Advanced Components</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Validation</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Wizard</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Upload</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Buttons</a></li>
+                    <li><a asp-area="" asp-controller="Emolumentos" asp-action="Emolumentos">Novo Pedido</a></li>
+                    <li><a asp-area="" asp-controller="Emolumentos" asp-action="Entregues">Entregues</a></li>
+                    <li><a asp-area="" asp-controller="Emolumentos" asp-action="EmProcesso">Em Processo</a></li>
+                    <li><a asp-area="" asp-controller="Emolumentos" asp-action="Pendentes">Pendentes</a></li>
                   </ul>
                 </li>
 
@@ -88,22 +89,18 @@
                 <li><a><i class="fa fa-calendar-o"></i> Calendário <span class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu">
                     <li><a asp-area="" asp-controller="AnoLectivos" asp-action="Index">Ano Lectivos</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Advanced Components</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Validation</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Wizard</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Upload</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Buttons</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Actividades</a></li>
                   </ul>
                 </li>
 
                 <li><a><i class="fa fa-gear"></i> Definições <span class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Registros</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Advanced Components</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Validation</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Wizard</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Upload</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Form Buttons</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">#</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">#</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">#</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">#</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">#</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">#</a></li>
                   </ul>
                 </li>
 
@@ -148,16 +145,17 @@
 
       <!-- page content -->
       <div class="right_col" role="main">
-
-             <div class="clearfix"></div>  
-                @RenderBody()
+        <div class=" ">
+          <div class="clearfix"></div>
+          @RenderBody()
+        </div>
       </div>
       <!-- /page content -->
 
       <!-- footer content -->
       <footer>
         <div class="pull-right">
-             &copy; 2021 - GRUBSCHOOL - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+          &copy; 2021 - GRUBSCHOOL - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
         <div class="clearfix"></div>
       </footer>
@@ -179,8 +177,8 @@
   <!-- Custom Theme Scripts -->
   <script src="js/custom.min.js"></script>
 
-     <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+  <script src="~/js/site.js" asp-append-version="true"></script>
+  @await RenderSectionAsync("Scripts", required: false)
 </body>
 
 </html>
